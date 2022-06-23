@@ -1,0 +1,76 @@
+<!--specifies html 5-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--top invisible portion of the page-->
+<head>
+    <!--meta charset specifies the character encoding used-->
+    <meta charset="UTF-8">
+    <!--makes it compatible with ie-edge browsers-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--makes it look the same on small devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--sets title-->
+    <title>Home</title>
+</head>
+<!--visible portion of the html-->
+<body>
+    <!--heading sized text-->
+    <h1>A photo of my self</h1>
+    <!--inserts image-->
+    <img src="myself.jpg" width="20%" height="20%"/>
+    <!--heading sized text-->
+    <h1>About me</h1>
+    <!--un ordered list-->
+    <ul>
+        <!--list item-->
+        <li>
+            A quiet person
+        </li>
+        <li>
+            Has passion for coding
+        </li>
+        <li>
+            Always fights for what he loves
+        </li>
+    </ul>
+    <!--links to the hobbies page-->
+<a href="hobbies.html"><h1>Hobbies</h1></a>
+<!--fairly large heading text-->
+<h4>Contact Form</h4>
+<!--creates form-->
+<form method="post" action="mailto:odongfelix61@gmail.com">
+    <!--creates a paragraph-->
+    <p>
+        <!--creates a label-->
+        <label>Name:</label> 
+        <!--creates a text area-->
+        <input type="text">
+    </p>
+    <p>
+        <label>Age:</label> 
+        <input type="text">
+    </p>
+    <p>
+        <label>Date of birth:</label>
+        <!--creates a date picker-->
+         <input type="date" >
+    </p>
+    <p>
+        <label>Sex:</label> 
+        <p>
+           <label>male</label> 
+           <!--creates a radio button-->
+           <input type="radio">
+        </p>
+        <p>
+           <label> female</label>
+            <input type="radio">
+         </p>
+    </p>
+    <p><!--creates a button-->
+        <input type="button" value="Submit">
+    </p>
+
+</form>
+</body>
+</html>
